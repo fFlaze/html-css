@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*
+div{
+    display: inline-block;
+    background-color: black;
+    color: red;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+                                        aprendendo sobre o div:hover para ativar a frase
+div:hover{
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+#d1{
+    color: cadetblue;
+}
+#d2{
+    color: rosybrown;
+}
+#d3{
+    color: red
+} 
+
+div:hover{
+    color: black;
+}
+
+div:hover > p {
+    display: block;
+    color: red;
+    background-color: black;
+    width: 200px;
+    padding: 2px;
+}
+
+div > p {
+    display: none
+}*/

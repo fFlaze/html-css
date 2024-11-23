@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+
+        div:hover{
+            font: normal 16px Arial;
+            background-color: rgba(0, 0, 0, 0.151);
+            padding: 5px;
+            border-radius: 5px;
+            text-shadow: 1px 1px 1px black;
+            width: 20%;
+            height: 20%;
+        }
+
+        div > p {
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Exemplos de Hover</h1>
+    <h2>Ex1:</h2>
+    <div>
+        Passe o mouse aqui
+        <p>fodase mcc</p>
+    </div>
+    <p>cabesa de bagri</p>
+    <h2>Ex2:</h2>
+    <div>
+        Ou aqui
+        <p>maicom jek</p>
+    </div>
+    <div>
+        <p>salve</p>
+        <p>salve</p>
+    </div>
+
+</body>
+
+</html>

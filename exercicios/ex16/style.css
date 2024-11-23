@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/*body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    background: #023535;
+    color: #0FC2C0;                        
+    }
+
+    aula de cor 01, ensinando sobre as cores no background e letra, descobri como por a fonte font-family
+
+#primarias{
+    background: rgba(219, 99, 14, 0.712);
+    color: rgb(46, 39, 39);
+
+    *{                        configuração global do css 
+        height: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+    body{
+    background-image: linear-gradient(to right, #C0874E 5%, #967656 30%, #EB9138);
+    background-image: radial-gradient(circle, #3198E2, #6D59C0, #B93590, #E33F5F, #FDD579)   
+    background-attachment: fixed;
+}
+h1{
+    color: #332C25; 
+}  
+     Exemplos de degrade  acima, podendo eles ser em degraus: (-50degex ou lados right) aula de cor 02
+*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1cm;
+}
