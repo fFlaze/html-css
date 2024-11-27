@@ -4,39 +4,75 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
-:root{
+:root {
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Passion One', cursive;
     --fonte3: 'Sriracha', cursive;
 }
 
-header{
+html, body {
+    min-height: 100vh;
+    font-size: 1em;
+}
+
+/* Cabeçalho */
+
+header {
     background-color: black;
     color: white;
-    
+    text-align: center;
     height: 250px;
+    min-width: 810px;
 }
 
 header > h1 {
-    text-align: center;
     padding-top: 36px;
-    font: bold 8em var(--fonte2);
+    font: normal 8.5em var(--fonte2);
 }
 
-header > p{
-    text-align: center;
+header > p {
     font-family: var(--fonte1);
 }
 
 p > a {
     font: bold 1em var(--fonte1);
-    font-style: normal;
     color: white;   
-    text-decoration-style: none;
+    text-decoration: none;
+    margin-bottom: 50px;  
 }
 
-p > a:hover{
-    text-decoration-style: solid;
+a:hover {
+    text-decoration: underline;
 }
+
+/* Main */
+
+main {
+    font: normal 4em var(--fonte3);
+    text-align: justify;
+    height: 87vh;
+    min-width: 831px;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
+
+main > #img1 {
+    background: black url(./imagens/background001.jpg) center center no-repeat;
+    background-size: cover;
+
+    box-shadow: 1px 1px 15px black;
+
+    color: white;
+}
+
+#img1 > p {
+    background-color: rgba(0, 0, 0, 0.479);
+    max-width: 744px;
+}
+
 
     
