@@ -19,23 +19,24 @@ header{
 
 header > h1 {
     text-align: center;
-    padding-top: 10px;
+    padding-top: 36px;
     font: bold 8em var(--fonte2);
 }
 
 header > p{
     text-align: center;
+    font-family: var(--fonte1);
 }
 
 p > a {
     font: bold 1em var(--fonte1);
     font-style: normal;
-    text-decoration: none;
-    color: white;
+    color: white;   
+    text-decoration-style: none;
 }
 
 p > a:hover{
-    text-decoration: solid;
+    text-decoration-style: solid;
 }
 
     
