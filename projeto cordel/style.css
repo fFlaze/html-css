@@ -10,7 +10,17 @@
     --fonte3: 'Sriracha', cursive;
 }
 
-header, a {
+    /* 
+        Cabeçalho
+    */
+
+body, html{
+    min-height: 100vh;
+    min-width: 1209px;
+    font-size: 1em;
+}
+
+header{
     background-color: black;
     color: white;
 
@@ -19,5 +29,78 @@ header, a {
 }
 
 header > h1{
-    font: normal 3.5em var(--fonte2);
+    font: normal 10vw var(--fonte2);
+    padding-top: 40px;
+}
+
+header > p{
+    font: normal 1em var(--fonte1);
+    padding-bottom: 50px;
+}
+
+header a, footer a{
+    color: white;
+    text-decoration: none;
+    
+    font-weight: bold;
+}
+
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+
+/* 
+    Main 
+*/
+
+section{
+
+}
+
+section p{
+    font: normal 4.5em var(--fonte3);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.281);
+}
+
+section .normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    box-shadow: inset 1px 1px 20px black;
+} 
+
+
+section.imagem > p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.438);
+    color: white;
+}
+
+section#img1{
+    background-image: url(./imagens/background001.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+section#img2{
+    background-image: url(./imagens/background002.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+/*
+    Footer 
+*/
+
+footer{
+    background-color: black;
+}
+
+footer > p {
+    color: white;
+    text-align: center;
+    font-family: var(--fonte1);
+    padding: 10px;
 }
