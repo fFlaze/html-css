@@ -16,10 +16,8 @@ header, a {
 
     text-decoration: none;
     text-align: center;
-    
-    
 }
 
-h1{
-    font: normal 3.5em Arial, Helvetica, Sans-serif;
+header > h1{
+    font: normal 3.5em var(--fonte2);
 }
